@@ -23,7 +23,7 @@
                          <h2 class="card-title fs-5">{{ $post->title }}</h2>
                          <p class="card-text">{{ $post->content }}</p>
 
-                           <div>
+                            <div>
                                 <p>{{ $post->updated_at->format('Y-m-d H:i:s') }}</p>
                             </div>
  
